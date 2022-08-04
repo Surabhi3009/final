@@ -96,7 +96,7 @@ def clean(dataset):
             r=testPredictPlot[1700:]
             x = np.arange(1700,2000 , 1)
             plt.plot(x,r, label="forecasted",color="orange")
-            plt.title("ECG signal forecasting for subject 100")
+            #plt.title("ECG signal forecasting for subject 100")
             plt.legend(loc="upper left")
             plt.ylabel('Signal')
             plt.xlabel("Time")
